@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>todo list</title>
+  </head>
+
+  <body class="dark">
+    <main>
+      <header>
+        <h1>TODO</h1>
+        <button class="theme-toggle"></button>
+      </header>
+
+      <div class="container new-item">
+        <div class="checkmark"></div>
+        <input placeholder="Create a new todo" type="text" />
+      </div>
+
+      <ul class="container list">
+        <li class="list-item list-item--completed">
+          <div class="checkmark"></div>
+          <p>item 1</p>
+          <i class="fas fa-times delete-item"></i>
+        </li>
+        <li class="list-item">
+          <div class="checkmark"></div>
+          <p>item 2</p>
+          <i class="fas fa-times delete-item"></i>
+        </li>
+        <li class="list-item">
+          <div class="checkmark"></div>
+          <p>item 3</p>
+          <i class="fas fa-times delete-item"></i>
+        </li>
+        <li class="list-item">
+          <div class="checkmark"></div>
+          <p>item 4</p>
+          <i class="fas fa-times delete-item"></i>
+        </li>
+        <ul class="list-control">
+          <li class="list-control__item">5 items left</li>
+          <ul class="items-categories items-categories-desktop">
+            <li class="items-categories__item items-categories--selected">
+              All
+            </li>
+            <li class="items-categories__item">Active</li>
+            <li class="items-categories__item">Completed</li>
+          </ul>
+          <li class="list-control__item">Clear Completed</li>
+        </ul>
+      </ul>
+
+      <ul class="container items-categories items-categories-mobile">
+        <li class="items-categories__item items-categories--selected">All</li>
+        <li class="items-categories__item">Active</li>
+        <li class="items-categories__item">Completed</li>
+      </ul>
+    </main>
+    <footer>Drag and drop to reorder the list</footer>
+    <script src="code.js"></script>
+  </body>
+</html>
