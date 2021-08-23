@@ -50,7 +50,7 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   font-family: "Josefin Sans", sans-serif;
-  background-size: 100% 35%;
+  background-size: 100% 250px;
   transition: all 0.3s;
 }
 
@@ -206,6 +206,11 @@ footer {
 
 .items-categories--selected {
   color: $Bright-Blue;
+}
+
+.empty {
+  justify-content: center;
+  cursor: auto;
 }
 
 //media query

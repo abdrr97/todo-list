@@ -44,7 +44,7 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   font-family: "Josefin Sans", sans-serif;
-  background-size: 100% 35%;
+  background-size: 100% 250px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -213,6 +213,13 @@ footer {
 
 .items-categories--selected {
   color: #3a7bfd;
+}
+
+.empty {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: auto;
 }
 
 @media screen and (min-width: 800px) {

@@ -1,9 +1,0 @@
--review the html code and make sure that the strcture of the code is right *
--build the mobile lay out (dont mind the colors and the themes)*
--make it responsive for the desktop*
--start to understand the colors and splite them to light and dark*
--modify the code so that every element has the right css variable*
--test the themes with the console*
--implement the toggle theme with js and store the theme on the local storage*
--now all the ui elements (layout and themes) are done*
--start implementing the todo functionality and store the list in the local storage

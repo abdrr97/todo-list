@@ -20,7 +20,7 @@
     <title>todo list</title>
   </head>
 
-  <body class="dark">
+  <body class="light">
     <main>
       <header>
         <h1>TODO</h1>
@@ -32,39 +32,7 @@
         <input placeholder="Create a new todo" type="text" />
       </div>
 
-      <ul class="container list">
-        <li class="list-item list-item--completed">
-          <div class="checkmark"></div>
-          <p>item 1</p>
-          <i class="fas fa-times delete-item"></i>
-        </li>
-        <li class="list-item">
-          <div class="checkmark"></div>
-          <p>item 2</p>
-          <i class="fas fa-times delete-item"></i>
-        </li>
-        <li class="list-item">
-          <div class="checkmark"></div>
-          <p>item 3</p>
-          <i class="fas fa-times delete-item"></i>
-        </li>
-        <li class="list-item">
-          <div class="checkmark"></div>
-          <p>item 4</p>
-          <i class="fas fa-times delete-item"></i>
-        </li>
-        <ul class="list-control">
-          <li class="list-control__item">5 items left</li>
-          <ul class="items-categories items-categories-desktop">
-            <li class="items-categories__item items-categories--selected">
-              All
-            </li>
-            <li class="items-categories__item">Active</li>
-            <li class="items-categories__item">Completed</li>
-          </ul>
-          <li class="list-control__item">Clear Completed</li>
-        </ul>
-      </ul>
+      <ul class="container list"></ul>
 
       <ul class="container items-categories items-categories-mobile">
         <li class="items-categories__item items-categories--selected">All</li>
@@ -73,6 +41,12 @@
       </ul>
     </main>
     <footer>Drag and drop to reorder the list</footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"
+      integrity="sha512-zYXldzJsDrNKV+odAwFYiDXV2Cy37cwizT+NkuiPGsa9X1dOz04eHvUWVuxaJ299GvcJT31ug2zO4itXBjFx4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="code.js"></script>
   </body>
 </html>
